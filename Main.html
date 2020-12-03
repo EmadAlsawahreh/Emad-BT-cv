@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="nMe/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="nMe/css/bootstrap.min.css">
+    <link rel="stylesheet" href="nMe/boxicons-2.0.7/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <script src="nMe/js/typed.js"></script>
+    <script src="aos.js"></script>
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+   
+    <div id="PageContainer" class="d-flex">
+        <!-- Menu  Container -->
+        <div id="MenuContainer" class="text-light d-flex flex-column ">
+            <div class="MenuContainerHeader d-flex flex-column" >
+                <div class=" p-4 mx-5 ">
+                    <img src="imgs/2.png" class=" img-fluid rounded-circle border-5 border-dark ">
+                </div > <h4 class="align-self-center">Emad Al-Sawaherh</h4>
+                <div class="align-self-center">
+                    <a href="https://www.facebook.com/itsJustAnotherLink" target="_blank" class="badge text-dark badge-light rounded-circle mx-1"><i class="bx bxl-facebook p-2"></i></a>
+                    <a href="https://www.instagram.com/so.what.n0w/?hl=en" target="_blank" class="badge text-dark badge-light rounded-circle mx-1"><i class="bx bxl-instagram p-2"></i></a>
+                    <a href="https://www.linkedin.com/in/emad-al-sawahreh-9074311b1" target="_blank"  class="badge text-dark badge-light rounded-circle mx-1"><i class="bx bxl-linkedin p-2"></i></i></a>
+                </div>
+            </div>
+
+            <div class="MenuContainerItems  h-100 d-flex flex-column mt-5">
+                <a href="#SectionHome" class="badge badge-dark text-light mx-1 my-1"><i class="bx bx-home-smile p-2"></i>Home</a>
+                <a href="#SectionAbout" class="badge badge-dark text-light mx-1 my-1"><i class="bx bx-info-circle p-2"></i>About</a>
+                <a href="#SectionResume" class="badge badge-dark text-light mx-1 my-1"><i class="bx bxl-facebook p-2"></i>Resume</a>
+                <a href="#SectionContact" class="badge badge-dark text-light mx-1 my-1"><i class="bx bxl-facebook p-2"></i>Contact</a>
+
+            </div>
+
+            <div class="MenuContainerFooter  align-self-center">
+                <strong>Designed by Me.</strong><br>Bootstrap 4.5 2020
+            </div>
+            
+        </div>
+        <!--  Content  Container  -->
+        <div id="ContentContainer" class="w-100">
+            
+            <section id="SectionHome">
+                <div class="d-flex w-100 justify-content-center">
+                  <div class="align-self-center text-danger">
+                      <p><h3>Emad Al-Sawahreh</h3>I'm <spin class="typedHome text-info"> </spin></p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section id="SectionAbout" class="about">
+              About
+            </section>
+
+            <section id="SectionResume">
+              Resume
+            </section>
+
+            <section id="SectionContact">
+              Contact
+            </section>
+
+        </div>
+    </div>
+    
+    
+    
+    <script> 
+        var typed = new Typed('.typedHome', {
+        strings: ["Web dev.", " Gamer.","Tester.","Negator."],
+        typeSpeed: 100,
+        backSpeed: 80,
+        loop: true,
+        loopCount: Infinity
+        });
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="Nme/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

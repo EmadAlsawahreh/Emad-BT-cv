@@ -1,0 +1,68 @@
+body
+{
+overflow: hidden;   
+font-family: 'Sansita Swashed', cursive;
+
+}
+
+#PageContainer
+{
+    height: 100vh;
+}
+.bd-highlight {
+    background-color: rgba(222,222,222,.15);
+    border: 1px solid rgba(222,222,222,.15);
+}
+#SectionResume
+{
+    background-image: url("imgs/MyPic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#MenuContainer
+{
+    min-width:300px;
+    max-width:300px;
+    background-color: #121212;
+    font-size: 110%;
+}
+
+#ContentContainer
+{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#ContentContainer section
+{
+    min-height: 100vh;
+}
+
+
+.border-5
+{
+    border-width: 10px;
+    border-style: solid;
+}
+#SectionHome
+{
+    background-image: url("imgs/00.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#SectionHome > div
+{
+    height: 100vh;
+}
+.typedHome
+{
+    border-bottom: 2px solid maroon;
+    font-size: 110%;
+    padding-bottom: 4px;
+}
