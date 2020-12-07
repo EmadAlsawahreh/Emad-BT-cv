@@ -1,7 +1,7 @@
 body
 {
 overflow: hidden;   
-font-family: 'Sansita Swashed', cursive;
+
 
 }
 
@@ -19,13 +19,15 @@ font-family: 'Sansita Swashed', cursive;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Sansita Swashed', cursive;
     
 }
 #MenuContainer
 {
     min-width:300px;
     max-width:300px;
-    background-color: #121212;
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url(../imgs/111.jpg);
 }
 #h3t
 {
@@ -51,6 +53,7 @@ font-family: 'Sansita Swashed', cursive;
 {
     border-width: 10px;
     border-style: solid;
+    
 }
 #SectionHome
 {
@@ -93,3 +96,17 @@ border-left: 5px solid silver;
     left: -25px; 
 }
 
+
+  
+#upButton 
+{
+    background-color :lightgrey;
+    color: darkgray;
+    padding: 9px 2px;
+    border-radius: 55px;
+    border-color: #46b8da;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    display: inline; border: solid ;border-radius: 50px; padding: 2px 5px; border
+}
