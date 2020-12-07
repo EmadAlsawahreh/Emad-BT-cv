@@ -15,7 +15,7 @@ font-family: 'Sansita Swashed', cursive;
 }
 #SectionResume
 {
-    background-image: url("imgs/MyPic.png");
+    background-image: url("imgs/.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -26,9 +26,13 @@ font-family: 'Sansita Swashed', cursive;
     min-width:300px;
     max-width:300px;
     background-color: #121212;
-    font-size: 110%;
 }
-
+#h3t
+{
+    border-bottom: 2px solid red;
+    width: 80px;
+    
+}
 #ContentContainer
 {
     max-height: 100vh;
@@ -50,7 +54,7 @@ font-family: 'Sansita Swashed', cursive;
 }
 #SectionHome
 {
-    background-image: url("imgs/00.jpg");
+    background-image: url("../imgs/111.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -66,3 +70,26 @@ font-family: 'Sansita Swashed', cursive;
     font-size: 110%;
     padding-bottom: 4px;
 }
+.marker
+{
+    font-size:16px;
+    color:red;
+}
+.resumeBorder
+{
+border-left: 5px solid silver;
+
+
+}
+.resumeBorder::before
+{
+    content:"";
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: silver;
+    display: block;
+    position: relative;
+    left: -25px; 
+}
+
