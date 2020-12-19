@@ -97,8 +97,6 @@ border-left: 5px solid silver;
     position: relative;
     left: -25px; 
 }
-
-
   
 #upButton 
 {
@@ -110,5 +108,13 @@ border-left: 5px solid silver;
     position: fixed;
     bottom: 15px;
     right: 30px;
-    display: inline; border: solid ;border-radius: 50px; padding: 2px 5px; border
+    display: inline; border: solid ;border-radius: 50px; padding: 2px 5px; 
+}
+
+#aboutPhoto
+{
+    border: solid 5px transparent;
+    border-radius: 20px;
+    width: 259px; 
+    height: 315px;
 }
