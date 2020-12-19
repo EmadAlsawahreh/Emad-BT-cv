@@ -1,8 +1,10 @@
+html
+{
+    scroll-behavior: unset;
+}
 body
 {
-overflow: hidden;   
-
-
+overflow: hidden;
 }
 
 #PageContainer
